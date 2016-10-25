@@ -15,6 +15,13 @@ public class Ejercicio4Relacion3 {
 		
 		//INICIO
 		
+		System.out.println("Introduce el primer número");
+		numero1 = Integer.parseInt(teclado.nextLine());
+		System.out.println("Introduce el segundo número");
+		numero2 = Integer.parseInt(teclado.nextLine());
+		
+		maximoComunDivisor = 0;
+		
 		while (numero / 2 = )
 		
 
