@@ -11,7 +11,7 @@ public class Ejercicio4Relacion3 {
 		
 		//VARIABLES
 		
-		int numero1, numero2, maximoComunDivisor;
+		int numero1, numero2, maximoComunDivisor, i;
 		
 		//INICIO
 		
@@ -20,11 +20,18 @@ public class Ejercicio4Relacion3 {
 		System.out.println("Introduce el segundo número");
 		numero2 = Integer.parseInt(teclado.nextLine());
 		
-		maximoComunDivisor = 0;
+		maximoComunDivisor = 1;
+		i = 1;
 		
-		while (numero / 2 = )
+		while (i <= numero1 && i <= numero2) {
+			if (numero1 % i = 0 %% numero2 % i = 0) {
+				maximoComunDivisor = i ;
+			}
+			i = i + 1;
+		}
 		
-
+		System.out.println("El máximo común divisor entre " + numero1 + " y " + numero2 + " es " + maximoComunDivisor);
+		
 	}
 
 }
